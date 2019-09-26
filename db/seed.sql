@@ -45,3 +45,8 @@ values ('The Witcher 3: Wild Hunt', 5999, 'https://images.igdb.com/igdb/image/up
 ('Super Smash Bros Ultimate', 4499, 'https://images.igdb.com/igdb/image/upload/t_cover_big/co1il8.jpg');
 ​
 select * from games;
+
+
+insert into users (name, email, is_admin)
+VALUES ('skylar', 'sky@gmail.com', true),
+('andrew', 'andrew@gmail.com', true);
