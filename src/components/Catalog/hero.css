@@ -1,0 +1,23 @@
+.hero-img {
+    background: url('https://www.theterminatorfans.com/wp-content/uploads/2019/09/Terminator-Resistance-Game.jpg');
+    height: 50vh;
+    min-height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.register-form {
+    background: #00000088;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    top: 60px;
+    height: 380px;
+    justify-content: space-evenly;
+}
+h2 {
+    margin-top: 0;
+}
